@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1 class="hero text-center p-2 text-white">Weather Dashboard</h1>
+    </header>
+    <div class="row align-items-start m-3">
+        <div class="col-3">
+            <h2>Search for a City:</h2>
+            <form id="search-form" class="location-search">
+            <input id="search-input" class="location-input m-2" type="text">
+            <button class="searchBtn">Search</button>
+            </form>
+            <hr class="solid">
+            <ul>
+            </ul>
+        </div>
+        <div class="col-9 border"id="current-weather">
+            <h2 class="city-name">Atlanta</h2>
+            <p class="current-temp">Temp:</p>
+            <p class="current-wind">Wind:</p>
+            <p class="current-humidity">Humidity:</p>
+            <p class="current-UV">UV Index:</p>
+            <!-- need to add color for UV conditions -->
+        </div>
+        <div class="col-9 offset-md-3" id="forecast">
+            <h2 class="forecast">5-Day Forecast:</h2>
+
+            <div class="card text-white p-2" style="width: 12rem;">
+                <div class="card-body">
+                  <h5 class="card-title">08/30/22</h5>
+                  <p class="forcast-temp">Temp:</p>
+                  <p class="forcast-wind">Wind:</p>
+                  <p class="forcast-humidity">Humidity:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "script.js"></script>
+</body>
+</html>

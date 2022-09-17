@@ -1,0 +1,52 @@
+
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+input {
+    width: 300px; 
+    height: 40px; 
+    border-radius: 5px;
+}
+
+.searchBtn {
+    background-color:#4aa8f0; 
+    justify-content:flex-end;
+    width: 300px; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+  }
+
+.search-buttons {
+    justify-content:flex-end;
+    width: 300px; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+header {
+    background-image: linear-gradient(to right, #3766a3 , #052042);
+
+}
+
+#forecast {
+    display: block; 
+}
+
+.card {
+    background-color:#083063;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
